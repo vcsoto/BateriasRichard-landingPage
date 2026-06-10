@@ -8,7 +8,7 @@ export default function FrontPage() {
     function openWhats() {
         const urlResult = "https://bateriasrichard.com";
         window.open(
-            `https://wa.me/528441013314?text= ${urlResult}%0A%0A¡Hola!%20Me%20interesa%20cotizar%20una%20batería`,
+            `https://wa.me/528441013314?text=${urlResult}%0A%0A¡Hola!%20Me%20interesa%20cotizar%20una%20batería`,
         );
     }
 

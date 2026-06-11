@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
     function openWhatsShared() {
         const urlResult = "https://bateriasrichard.com";
-        window.open(`https://wa.me/528441013314?text=${urlResult}`);
+        window.open(`https://wa.me/?text=${urlResult}`);
     }
     return (
         <header>

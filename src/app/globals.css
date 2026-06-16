@@ -122,6 +122,10 @@ button.btn-type-1 {
     transition: 0.5s;
 }
 
+button.btn-type-1 i {
+    pointer-events: none;
+}
+
 button.btn-type-1:hover {
     transform: scale(1.05);
 }

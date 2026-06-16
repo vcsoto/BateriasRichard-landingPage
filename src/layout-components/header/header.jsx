@@ -17,7 +17,11 @@ export default function Header() {
                     width={800}
                     height={600}
                 />
-                <button className="btn-type-1" onClick={openWhatsShared}>
+                <button
+                    id="btn-shared"
+                    className="btn-type-1"
+                    onClick={openWhatsShared}
+                >
                     <i className="fa-solid fa-share"></i> compartir
                 </button>
             </div>

@@ -164,7 +164,11 @@ export default function FrontPage() {
                 </div>
             </section>
             <section className="end-section end-section-addon-yellow">
-                <button className={s.btn_primary} onClick={openWhats}>
+                <button
+                    id="btn-cotizar-whatsapp"
+                    className={s.btn_primary}
+                    onClick={openWhats}
+                >
                     <span className={s.lights}></span>
                     <span className={s.lights}></span>
                     <span className={s.lights}></span>

@@ -132,8 +132,8 @@ export default function FrontPage() {
                             <span className={s.features}>
                                 <Image
                                     className={s.image_feature}
-                                    src="/motorcycle-cross-moto-bike-svgrepo-com.svg"
-                                    alt="motorcycle-cross-moto-bike-svgrepo-com"
+                                    src="/car-travel-svgrepo-com.svg"
+                                    alt="car-travel-svgrepo-com"
                                     width={100}
                                     height={100}
                                 />
@@ -142,8 +142,8 @@ export default function FrontPage() {
                             <span className={s.features}>
                                 <Image
                                     className={s.image_feature}
-                                    src="/motorcycle-cross-moto-bike-svgrepo-com.svg"
-                                    alt="motorcycle-cross-moto-bike-svgrepo-com"
+                                    src="/truck-pickup-svgrepo-com.svg"
+                                    alt="truck-pickup-svgrepo-com"
                                     width={100}
                                     height={100}
                                 />
@@ -152,8 +152,8 @@ export default function FrontPage() {
                             <span className={s.features}>
                                 <Image
                                     className={s.image_feature}
-                                    src="/motorcycle-cross-moto-bike-svgrepo-com.svg"
-                                    alt="motorcycle-cross-moto-bike-svgrepo-com"
+                                    src="/public-transport-bus-svgrepo-com.svg"
+                                    alt="public-transport-bus-svgrepo-com"
                                     width={100}
                                     height={100}
                                 />

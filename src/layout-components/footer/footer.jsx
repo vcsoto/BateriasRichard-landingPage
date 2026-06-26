@@ -78,14 +78,15 @@ export default function Footer() {
                         Aviso de privacidad
                     </a>*/}
                     <span>
-                        2026 BateríasRichard por&nbsp;
-                        <Link
+                        © 2026 Baterías Richard. Desarrollado por{" "}
+                        <a
                             href="https://azteckweb.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="supplier"
                         >
                             Azteckweb
-                        </Link>
+                        </a>
                     </span>
                 </div>
             </div>

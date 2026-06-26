@@ -79,9 +79,13 @@ export default function Footer() {
                     </a>*/}
                     <span>
                         2026 BateríasRichard por&nbsp;
-                        <a href="#" className="supplier">
+                        <Link
+                            href="https://azteckweb.com/"
+                            target="_blank"
+                            className="supplier"
+                        >
                             Azteckweb
-                        </a>
+                        </Link>
                     </span>
                 </div>
             </div>

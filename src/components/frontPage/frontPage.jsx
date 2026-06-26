@@ -1,10 +1,27 @@
 "use client";
 import Header from "@/layout-components/header/header";
 import s from "./frontPage.module.css";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function FrontPage() {
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setVisible(true);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     function openWhats() {
         const urlResult = "https://bateriasrichard.com";
         window.open(
@@ -163,7 +180,11 @@ export default function FrontPage() {
                     </div>
                 </div>
             </section>
-            <section className="end-section end-section-addon-yellow">
+            <section
+                className={`end-section end-section-addon-yellow ${
+                    visible ? "visible" : ""
+                }`}
+            >
                 <button
                     id="btn-cotizar-whatsapp"
                     className={s.btn_primary}

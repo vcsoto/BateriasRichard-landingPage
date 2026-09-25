@@ -35,17 +35,24 @@
 .track {
     display: flex;
     align-items: center;
-    gap: 8rem;
     width: max-content;
     animation: scroll 60s linear infinite;
 }
 
+.sequence {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    margin-right: 8rem;
+    flex-shrink: 0;
+}
+
 @keyframes scroll {
     from {
-        transform: translateX(0);
+        transform: translateX(-50%);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(0);
     }
 }
 

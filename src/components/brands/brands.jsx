@@ -26,25 +26,27 @@ export default function Brands() {
             <section className={`allcont`} style={{ paddingTop: "45px" }}>
                 <div className={s.brands}>
                     <div className={s.track}>
-                        {/* Primera copia */}
-                        {brands.map((brand, index) => (
-                            <img
-                                key={`a-${index}`}
-                                src={brand}
-                                alt=""
-                                className={s.img_brands}
-                            />
-                        ))}
+                        <div className={s.sequence}>
+                            {brands.map((brand, index) => (
+                                <img
+                                    key={`a-${index}`}
+                                    src={brand}
+                                    alt=""
+                                    className={s.img_brands}
+                                />
+                            ))}
+                        </div>
 
-                        {/* Segunda copia para crear el loop */}
-                        {brands.map((brand, index) => (
-                            <img
-                                key={`b-${index}`}
-                                src={brand}
-                                alt=""
-                                className={s.img_brands}
-                            />
-                        ))}
+                        <div className={s.sequence} aria-hidden="true">
+                            {brands.map((brand, index) => (
+                                <img
+                                    key={`b-${index}`}
+                                    src={brand}
+                                    alt=""
+                                    className={s.img_brands}
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </section>
